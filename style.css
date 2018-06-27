@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  position: relative;
+}
+
+/* common */
+.button {
+}
+
+/* flexbox */
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex: 1;
+}
+
+/* header */
+#header {
+  /* border: 3px solid red; */
+  background: #333;
+  position: sticky;
+  top: 0;
+  display: flex;
+}
+
+#header-img {
+  display: block;
+  border: 3px solid red;
+  padding-left: 80px;
+}
+
+#nav-bar {
+  /* border: 3px solid blue; */
+  flex: 1;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-link {
+  border: 2px solid white;
+  border-radius: 3px;
+
+  padding: 5px 30px;
+  color: white;
+
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background: white;
+  color: #333;
+}
+
+main {
+  /* border: 10px solid lime; */
+}
+section {
+  /* border: 3px solid magenta; */
+  min-height: 200px;
+}
+
+/* intro */
+#intro {
+  text-align: center;
+}
+.title {
+  font-size: 2.5em;
+}
+/* input {
+  display: inline-block;
+} */
+
+#email {
+  padding: 5px 15px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  width: 250px;
+}
+
+#submit {
+  margin-top: 30px;
+  border: 3px solid black;
+  border-radius: 10px;
+  font-size: 1.5em;
+  padding: 15px 60px;
+  background: transparent;
+  color: black;
+}
+#submit:hover {
+  cursor: pointer;
+  background: black;
+  color: white;
+}
+
+footer {
+  /* border: 3px solid red; */
+}
+@media (max-width: 750px) {
+  main {
+    border: 10px solid lime;
+  }
+
+  #nav-brand {
+    border: 3px solid yellow;
+    /* justify-content: center; */
+
+    display: flex;
+  }
+
+  /* #header, */
+  #nav-bar {
+    flex-direction: column;
+  }
+
+  #header-img {
+  }
+
+  #header-img {
+    padding: 0;
+    /* justify-self: center; */
+    margin: auto;
+  }
+
+  .nav-link {
+    /* display: block; */
+    /* border: 3px solid magenta; */
+    margin: 5px 0;
+    /* width: 80%; */
+    width: 150px;
+    text-align: center;
+  }
+}
