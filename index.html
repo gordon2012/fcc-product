@@ -14,12 +14,13 @@
   <div id="app">
     <header id="header">
       <div id="nav-brand">
-        <img src="https://imgplaceholder.com/80x80/333333/eeeeee/fa-gavel" height="80" alt="" id="header-img">
+        <a href="#intro">
+          <img src="https://imgplaceholder.com/80x80/333333/eeeeee/fa-gavel" height="80" alt="" id="header-img">
+        </a>
       </div>
       <nav id="nav-bar">
-        <a href="#intro" class="nav-link">Intro</a>
         <a href="#features" class="nav-link">Features</a>
-        <a href="#clip" class="nav-link">Video</a>
+        <a href="#demo" class="nav-link">Demo</a>
         <a href="#pricing" class="nav-link">Pricing</a>
       </nav>
     </header>
@@ -33,14 +34,89 @@
           <input type="submit" id="submit" value="Get Started">
         </form>
       </section>
-      <section id="features"></section>
-      <section id="clip">
 
+      <section id="features">
+        <div class="features">
+          <div class="feature card">
+            <div class="feature-icon">
+              <img src="https://imgplaceholder.com/150x150/transparent/000000/fa-fire" alt="" height="150">
+            </div>
+            <div class="feature-copy">
+              <h2>Forged in Fire</h2>
+              <p>Each of Eitri's weapons are expertly hand crafted in the heart of a dying star. He uses only the best metals
+                in the universe and his rune-work is astounding.</p>
+            </div>
+          </div>
+          <div class="feature card">
+            <div class="feature-icon">
+              <img src="https://imgplaceholder.com/150x150/transparent/000000/ion-nuclear" alt="" height="150">
+            </div>
+            <div class="feature-copy">
+              <h2>Powerful Beyond Measure</h2>
+              <p>These weapons are so powerful they can stun, wound, and even kill the most powerful of beings, including gods,
+                celestials, titans, and more.</p>
+            </div>
+          </div>
+          <div class="feature card">
+            <div class="feature-icon">
+              <img src="https://imgplaceholder.com/150x150/transparent/000000/fa-user-secret" alt="" height="150">
+            </div>
+            <div class="feature-copy">
+              <h2>Concealed Carry</h2>
+              <p>Each weapon has the innate ability to conceal itself as a common household item, such as an umbrella. Perfect
+                for searching populated areas for senile gods and consorting with wizards.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="demo">
         <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/dEKsPyNh4sw" frameborder="0" allow="autoplay; encrypted-media"
           allowfullscreen></iframe>
-
       </section>
-      <section id="pricing"></section>
+
+      <section id="pricing">
+        <div class="pricing">
+          <div class="price card">
+            <div class="price-header">Mjolnir</div>
+            <div class="price-amount">$600,000</div>
+            <div class="price-list">
+              <li>Proof of Thor's Might</li>
+              <li>Always Returns to Owner</li>
+              <li>Currently Broken</li>
+            </div>
+            <div class="price-button">
+              <button class="button-dark">Purchase</button>
+            </div>
+          </div>
+
+          <div class="price card">
+            <div class="price-header">Stormbreaker</div>
+            <div class="price-amount">$1,000,000</div>
+            <div class="price-list">
+              <li>Axe and Hammer in One</li>
+              <li>Custom Treant Arm Handle</li>
+              <li>Has cleaved the heart of a titan</li>
+            </div>
+            <div class="price-button">
+              <button class="button-dark">Purchase</button>
+            </div>
+          </div>
+
+          <div class="price card">
+            <div class="price-header">Infinity Gauntlet</div>
+            <div class="price-amount">$15,000,000</div>
+            <div class="price-list">
+              <li>One Size Fits All</li>
+              <li>Killed Half the Universe</li>
+              <li>Infinity Stones not included</li>
+            </div>
+            <div class="price-button">
+              <button class="button-dark">Purchase</button>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
