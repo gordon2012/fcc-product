@@ -4,6 +4,6 @@
 
 ### A freeCodeCamp Responsive Web Design Project
 
-<https://tribute.gordonscampinggear.com>
+<https://product.gordonscampinggear.com>
 
-![Product Landing Page](https://gordonscampinggear.com/img/tribute.png)
+![Product Landing Page](https://gordonscampinggear.com/img/product.png)
